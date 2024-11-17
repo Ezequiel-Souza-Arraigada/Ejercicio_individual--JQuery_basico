@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio JQuery Básico</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body class="bg-light text-center">
+    <div class="container py-5">
+        <h1 id="titulo" class="display-5 text-primary">¡Mirá la siguiente imagen!</h1>
+        
+        <div class="mt-4">
+            <button id="btn-ocultar" class="btn btn-danger me-2">Ocultar Imagen y Texto</button>
+            <button id="btn-mostrar" class="btn btn-success">Mostrar Imagen y Texto</button>
+        </div>
+        
+        <div class="mt-4">
+            <img id="imagen" src="img/Serpientesquegiran.png" alt="Imagen de ejemplo" class="img-fluid border">
+        </div>
+        <p id="texto" class="mt-4 text-muted border rounded p-3">
+            En el año 2003, el profesor Akiyoshi Kitaoka, psicólogo de la Universidad Ritsumeikan especializado en
+            la creación de ilusiones ópticas, diseñó la imagen que puedes ver a continuación. Aunque no lo creas,
+            es una imagen estática y no una animación. Tu cerebro cree que las serpientes están girando sobre sí mismas
+            por la deriva periférica, que se basa en cómo procesan la luminancia nuestros ojos. ¡Es verdaderamente hipnótico!
+        </p>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script personalizado -->
+    <script src="script.js"></script>
+</body>
+</html>
